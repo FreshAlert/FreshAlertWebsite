@@ -9,13 +9,10 @@ body {
 }
 
 .top-title{
-    
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
     display: flex;
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -24,8 +21,13 @@ body {
 
 .top-title h1{
     font-weight: bold;
-    padding: 50px;
-    font-size: 80px;
+    padding-top: 100px;
+    font-size: 200px;
+    font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+}
+
+.top-title h2{
+    font-size: 30px;
     font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
 }
 
@@ -44,30 +46,29 @@ body {
 
 .menu-bar {
     position: sticky;
-    text-align: right;
     top: 0;
     background: white;
     font: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     padding: 10px;
 }
-  
+
 .menu-bar ul {
+    text-align: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
   
 .menu-bar li {
-    
     display: inline;
     margin-right: 20px;
 }
   
 .menu-bar li a {
-    
     color: black;
-    
     text-decoration: none;
 }
   
