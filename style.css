@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/images/home-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.top-title{
+    
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-title h1{
+    font-weight: bold;
+    padding: 50px;
+    font-size: 80px;
+    font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+}
+
+.top-title ul button{
+    position: center;
+    margin:40px;
+}
+
+.top-title button{
+    font-size: 20px;
+    padding: 20px 60px;
+    border-radius: 1000px;
+}
+
+
+
+.menu-bar {
+    position: sticky;
+    text-align: right;
+    top: 0;
+    background: white;
+    font: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+    color: white;
+    padding: 10px;
+}
+  
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu-bar li {
+    
+    display: inline;
+    margin-right: 20px;
+}
+  
+.menu-bar li a {
+    
+    color: black;
+    
+    text-decoration: none;
+}
+  
+.menu-bar li a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+
+
+.intro{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 500px;
+
+}
+
+.intro h2{
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro p{
+    margin-right: 200px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
