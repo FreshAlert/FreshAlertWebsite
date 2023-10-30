@@ -60,7 +60,6 @@ body {
   color: white;
   text-decoration: none;
   text-underline: none;
-
 }
 
 .img-div {
@@ -113,5 +112,5 @@ body {
 
 .carousel {
   padding: 40px;
-  margin: 20px
+  margin: 20px;
 }
