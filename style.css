@@ -81,3 +81,30 @@ body {
 .green {
   color: #70c72d;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+#carouselExampleControls {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+/* size of carousel images */
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel {
+  padding: 40px;
+  margin: 20px
+}
