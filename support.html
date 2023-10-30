@@ -1,9 +1,9 @@
 <html>
-<head>
+  <head>
     <title>Support</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head class="support">
-<body>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
     <h1>How can we help?</h1>
     <h2>FAQ</h2>
 
@@ -20,99 +20,90 @@
       <p class="Answers">Blablabla</p>
     </div>
 
-
     <h6>Talk to an expert</h6>
     <p4 class="quote">We are here to answer all your questions.</p4>
 
     <button class="Contact">Contact Support</button>
     <style>
-    h2 {
-      margin-top:110px;
-      margin-left: 15px;
-      color: #A3E8A4;
-    }
+      h2 {
+        margin-top: 110px;
+        margin-left: 15px;
+        color: #a3e8a4;
+      }
 
-    h1 {
-      text-align: center;
-      margin-top: 50px;
-    }
-    .accordion {
-    cursor: pointer;
-    text-align: left;
-    font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
-    color:#D1FFC0;
-    font-size: 15px;
-    outline: none;
-    border:none;
-    width: 100%;
-    transition: 0.5s;
-    margin-left: 65px;
-    margin-bottom:8px;
-    color:rgb(40, 135, 94);
-    background-color: rgba(240, 234, 234, 0.185);
-    padding: 15px ;
-  }
-    .Answers {
-    margin-left: 80px;
-    font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
-    font-size: 13px;
-    color: rgb(40, 135, 94);
-  
-    }  
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .accordion {
+        cursor: pointer;
+        text-align: left;
+        font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+        color: #d1ffc0;
+        font-size: 15px;
+        outline: none;
+        border: none;
+        width: 100%;
+        transition: 0.5s;
+        margin-left: 65px;
+        margin-bottom: 8px;
+        color: rgb(40, 135, 94);
+        background-color: rgba(240, 234, 234, 0.185);
+        padding: 15px;
+      }
+      .Answers {
+        margin-left: 80px;
+        font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+        font-size: 13px;
+        color: rgb(40, 135, 94);
+      }
 
-
-    h6 {
-      position: absolute;
-      border-style: none;
-      background-color: rgba(68, 226, 157, 0.34);
-      margin-left: 75px;
-      margin-top: 40px;
-      padding-bottom: 110px;
-      padding-left:35px;
-      padding-top: 25px;
-      font-size: 25px;
-      padding-right: 300;
-      border-radius: 3px;
-      font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
-      color:rgb(40, 135, 94)
-    }
-   .quote {
-    position: absolute;
-    margin-left:110px ;
-    margin-top:108px;
-    color:rgb(40, 135, 94);
-    }
-  .contact{
-    position:absolute;
-    margin-left: 110px;
-    margin-top:140px;
-    padding:19px;
-    border-radius: 1000px;
-    border: none;
-    background-color: rgb(49, 191, 130) ;
-
-
-  }
-
-
+      h6 {
+        position: absolute;
+        border-style: none;
+        background-color: rgba(68, 226, 157, 0.34);
+        margin-left: 75px;
+        margin-top: 40px;
+        padding-bottom: 110px;
+        padding-left: 35px;
+        padding-top: 25px;
+        font-size: 25px;
+        padding-right: 300;
+        border-radius: 3px;
+        font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+        color: rgb(40, 135, 94);
+      }
+      .quote {
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 108px;
+        color: rgb(40, 135, 94);
+      }
+      .contact {
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 140px;
+        padding: 19px;
+        border-radius: 1000px;
+        border: none;
+        background-color: rgb(49, 191, 130);
+      }
     </style>
     <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
+      var acc = document.getElementsByClassName("accordion");
+      var i;
 
-    for (i=0; i< acc.length ;i++){
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active")
-        var panel = this.nextElementSibling;
-        if(panel.style.display==="block"){
-          panel.style.display= "none";
-        } else {
-          panel.style.display="block";
-        }
-      });
-    }
-
-
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
     </script>
   </body>
 </html>
