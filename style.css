@@ -56,6 +56,13 @@ body {
   cursor: pointer;
 }
 
+.buttondiv a {
+  color: white;
+  text-decoration: none;
+  text-underline: none;
+
+}
+
 .img-div {
   width: 50%;
   display: flex;
