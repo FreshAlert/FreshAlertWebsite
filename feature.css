@@ -1,1 +1,63 @@
-body{}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+.app-landing{
+    padding: 80px 0px;
+}
+.container{
+    max-width: 1200 px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.row{
+    display: : flex;
+    flex-wrap: wrap;
+}
+.app-landing h3{
+    font-size: 22 px;
+    color:rgb(8, 47, 23);
+    margin-bottom: 8px;
+}
+.app-landing p{
+    font-size: 18 px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20 px;
+}
+.app-landing img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: right ;
+}
+.btn{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #39846b;
+    transition: all 0.4s ease;
+}
+.btn:hover{
+    transform: translateY(-3px);
+}
+@media screen and (max: width 768px){
+    .row{
+        flex-direction: column;
+    }
+    .flex{
+        max-width: 100%;
+    }
+    .app-landing p{
+        font-size: 16px;
+    }
+}
+    
+}
