@@ -39,7 +39,7 @@
     height: auto;
     margin: 64px auto ;
 }
-.btn{
+.button-div a{
     text-decoration: none;
     color: rgb(243, 243, 243);
     display: inline-block;
@@ -64,7 +64,7 @@
     .app-landing p{
         font-size: 16px;
     }
-    .btn {
+    .button-div a{
         font-size: 16px;
         padding: 16px;
         margin-bottom: 350px auto;
