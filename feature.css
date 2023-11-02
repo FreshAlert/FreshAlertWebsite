@@ -5,7 +5,7 @@
     font-family: "roboto", sans-serif;
 }
 .app-landing{
-    padding: 80px 0px;
+    padding: 60px 0px;
 }
 .container{
     max-width: 1200 px;
@@ -37,9 +37,9 @@
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 150px auto ;
+    margin: 64px auto ;
 }
-.btn{
+.button-div a{
     text-decoration: none;
     color: rgb(243, 243, 243);
     display: inline-block;
@@ -64,7 +64,7 @@
     .app-landing p{
         font-size: 16px;
     }
-    .btn {
+    .button-div a{
         font-size: 16px;
         padding: 16px;
         margin-bottom: 350px auto;
@@ -102,13 +102,7 @@
 .features{
     flex-basis: 50%;
 }
-.feature-img{
-    flex-basis: 50%;
-    margin: auto;
-}
-.feature-img img{
-    width: 100%;
-}
+
 .features h1{
     text-align: left;
     margin-bottom: 10px;
@@ -123,4 +117,10 @@
 .feature-text p{
     padding: 0 20 px;
     text-align: initial;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    margin: 20px
 }
