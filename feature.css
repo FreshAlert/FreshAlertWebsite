@@ -51,6 +51,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    margin: 20px;
 }
 
 .maindiv-features {
