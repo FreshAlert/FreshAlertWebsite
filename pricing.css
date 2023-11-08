@@ -1,123 +1,99 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: white;
   min-height: 100vh;
-}
-
-.nav-menu li {
-  list-style: none;
-}
-
-.nav-menu a {
-  color: black;
-  text-decoration: none;
-}
-
-.navbar {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-bottom: 20px;
-  min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-}
-
-.nav-brand {
-  font-size: 2rem;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-bottom: 20px;
-}
-
-.nav-brand img {
-  height: 50px;
-  margin-top: 20px;
-}
-
-.nav-link {
-  transition: 0.7s ease;
 }
 
 .nav-link:hover {
   border-bottom-color: blueviolet;
 }
 
-.hamburger {
-  display: none;
+.maindiv {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  position: relative;
+  color: white;
+  background-image: url("./assets/images/vintage-old-rustic-cutlery-dark_1220-4886 (1).jpg");
+  background-size: cover;
+}
+
+.subdiv {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 10px;
+  padding: 60px;
+}
+
+.subdiv p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.subdiv h1 {
+  font-size: 3rem;
+  font-weight: 540;
+  margin: 0;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.subdiv button {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 20%;
+  background-color: #70c72d;
+  color: #fff;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  font-family: "Open Sans", sans-serif;
   cursor: pointer;
 }
 
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: black;
+.buttondiv a {
+  color: white;
+  text-decoration: none;
+  text-underline: none;
 }
 
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
+.img-div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  padding: 60px;
+}
 
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
+.img-div img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 20px;
+}
 
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
+.buttondiv {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    border-radius: 20px;
-    top: 80px;
-    gap: 0;
-    flex-direction: column;
-    background-color: white;
-    color: black;
-    width: 80%;
-    text-align: center;
-    transition: 0.3s;
-  }
-
-  .nav-item {
-    margin: 16px 0;
-  }
-
-  .nav-menu.active {
-    left: 0;
-  }
+.green {
+  color: #70c72d;
 }
 
 .prices {
   display: flex;
   align-items: center;
   padding: 0 24px;
-  gap: 100px;
+  gap: 5%;
   margin-top: 70px;
   min-height: 70px;
   display: flex;
@@ -125,13 +101,14 @@ body {
 
 .pricing-option-free {
   border-radius: 100px;
-  width: 500px;
+  width: 75%;
   height: 1000px;
   background-color: gainsboro;
   text-align: center;
 }
 
 .pricing-option-free h2 {
+  margin-top: 10%;
   padding-top: 50px;
   font-size: 50px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -140,7 +117,7 @@ body {
 }
 
 .pricing-option-free a {
-  font-size: 20px;
+  font-size: 120%;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -155,13 +132,14 @@ body {
 
 .pricing-option-premium {
   border-radius: 100px;
-  width: 500px;
+  width: 75%;
   height: 1000px;
   background-color: gainsboro;
   text-align: center;
 }
 
 .pricing-option-premium h2 {
+  margin-top: 10%;
   padding-top: 50px;
   font-size: 50px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -170,7 +148,8 @@ body {
 }
 
 .pricing-option-premium a {
-  font-size: 20px;
+  font-size: 120%;
+  text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -192,6 +171,7 @@ body {
   margin-right: 30px;
   text-align: center;
   list-style-type: none;
+  font-size: 140%;
   word-spacing: 10px;
 }
 
@@ -200,7 +180,8 @@ body {
 }
 
 .features-list button {
-  margin-top: 200px;
+  margin-top: 30%;
+  margin-bottom: 20%;
   padding: 20px;
   font-size: 30px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
