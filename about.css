@@ -13,8 +13,9 @@
        }
 .row{
 display:flex;
-flex wrap:wrap;
+flex-wrap:wrap;
  }
+ 
 .flex{ 
   flex:0 0 50%;
   max-width:50%;
