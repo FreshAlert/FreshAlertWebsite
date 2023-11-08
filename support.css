@@ -186,3 +186,13 @@ opacity: 0.75;
 .hidden {
     display: none;
 }
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.panel.active {
+    max-height: 2000px;
+}

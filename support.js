@@ -11,10 +11,10 @@ for (i = 0; i < acc.length; i++) {
     arrowDown.classList.toggle("hidden");
     arrowUp.classList.toggle("hidden");
 
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
     } else {
-      panel.style.display = "block";
+      panel.style.maxHeight = panel.scrollHeight + "px";
     }
   });
 }
