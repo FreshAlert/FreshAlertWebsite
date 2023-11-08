@@ -4,13 +4,8 @@
   box-sizing: border-box;
 }
 
-header {
-  background-color: white;
-  border-radius: 100px;
-}
-
 body {
-  background-color: #262626;
+  background-color: white;
   min-height: 100vh;
 }
 
@@ -132,7 +127,7 @@ body {
   border-radius: 100px;
   width: 500px;
   height: 1000px;
-  background-color: white;
+  background-color: gainsboro;
   text-align: center;
 }
 
@@ -162,7 +157,7 @@ body {
   border-radius: 100px;
   width: 500px;
   height: 1000px;
-  background-color: white;
+  background-color: gainsboro;
   text-align: center;
 }
 
