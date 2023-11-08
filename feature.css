@@ -18,8 +18,10 @@
 }
 .app-landing h2{
     text-align: center;
-    color: aquamarine;
+    margin: auto;
     font-size: 20px;
+    color: #70c72d;
+    font-weight: bold;
 }
 .app-landing h1{
     font-size: 50 px;
@@ -48,7 +50,7 @@
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 5px;
-    background-color: #39846b;
+    background-color: #70c72d;
     transition: all 0.4s ease;
 }
 .btn:hover{
@@ -81,7 +83,7 @@
 .title-text p{
     margin: auto;
     font-size: 20px;
-    color: aquamarine;
+    color: #70c72d;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -107,7 +109,7 @@
     text-align: left;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #39846b;
+    color: #70c72d;
 }
 .features-decs{
     display: flex;
