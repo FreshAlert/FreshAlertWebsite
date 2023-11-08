@@ -14,6 +14,13 @@ body {
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-us > div {
+    flex: 1;
+    padding: 10px;
 }
 
 h2 {
@@ -57,11 +64,6 @@ p {
     background-color: #0056b3;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-}
-
 .flex img {
     max-width: 100%;
     height: auto;
@@ -72,4 +74,14 @@ p {
 .social-link,
 .btn {
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column;
+    }
+
+    .about-us > div {
+        flex: auto;
+    }
 }
