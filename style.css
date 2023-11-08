@@ -9,7 +9,7 @@ body {
 .maindiv {
   display: flex;
   justify-content: center;
-  height: 80vh;
+  height: 100%;
   align-items: center;
   position: relative;
   color: white;
@@ -50,11 +50,11 @@ body {
   border-radius: 20px;
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
-  padding: 15px;
+  padding: 8px;
 }
 
 .subdiv a {
-  padding: 67px;
+  padding: 42px;
 }
 
 .buttondiv a {
@@ -140,11 +140,11 @@ body {
 @keyframes emoji-fall {
   0% {
     opacity: 1;
-    transform: translateY(-40vh) scale(1); /* Start from the top */
+    transform: translateY(-40vh) scale(1);
   }
   100% {
     opacity: 0;
-    transform: translateY(100vh) scale(0);
+    transform: translateY(40vh) scale(0);
   }
 }
 
