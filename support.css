@@ -1,186 +1,196 @@
-
 h1 {
-text-align: center;
-margin-top: 50px;
-color: rgba(5, 90, 5, 0.553)
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(5, 90, 5, 0.553);
 }
-form{
-border-radius: 4px;
-border-style: solid ;
-border-width: 1.75px;
-margin-left: 33%;
-margin-right: 33%;
-padding: 7px;
-border-color: rgb(40, 135, 94);
-display: flex;
-align-items: center;
 
+form {
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1.75px;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding: 7px;
+    border-color: rgb(40, 135, 94);
+    display: flex;
+    align-items: center;
 }
-input{
-all:unset;
-text-align: left;
-font: 16px system-ui;
-width: 100%;
-color: rgba(8, 101, 33, 0.708);
+
+input {
+    all: unset;
+    text-align: left;
+    font: 16px system-ui;
+    width: 100%;
+    color: rgba(8, 101, 33, 0.708);
 }
-::placeholder{
-color:rgb(40, 135, 94);
-opacity:0.6;
+
+::placeholder {
+    color: rgb(40, 135, 94);
+    opacity: 0.6;
 }
 
 svg {
-fill:  rgb(40, 135, 94);
-}
-.icon{
-all: unset;
-cursor: pointer;
-width: 18px;
-height: 18px;
-text-align: right;
-color: #a3e8a4;
-}
-h2{
-margin-top: 50px;
-margin-left: 40px;
-color: rgb(40, 135, 94);
-font-size: 25px;
+    fill: rgb(40, 135, 94);
 }
 
-.FSA{
-display: flex;
-width:95%;
-margin-left: 40px;
-margin-right: 500px;
+.icon {
+    all: unset;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    text-align: right;
+    color: #a3e8a4;
 }
-.FSA1{
-width: 100%;
+
+h2 {
+    margin-top: 50px;
+    margin-left: 40px;
+    color: rgb(40, 135, 94);
+    font-size: 25px;
 }
-.article{
-width: 90%;
-border-radius: 10px;
+
+.FSA {
+    display: flex;
+    width: 95%;
+    margin-left: 40px;
+    margin-right: 500px;
 }
-.title{
-font-weight: bold;
-color: rgba(23, 140, 23, 0.607);
-font-size: 18px
-word-wrap: break-word
+
+.FSA1 {
+    width: 100%;
 }
-.description{
-font-size: 14px;
-color: rgb(40, 135, 94);
-word-wrap: break-word
+
+.article {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: bold;
+    color: rgba(23, 140, 23, 0.607);
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.description {
+    font-size: 14px;
+    color: rgb(40, 135, 94);
+    word-wrap: break-word;
 }
 
 h3 {
-margin-top: ;
-margin-left: 40px;
-color: rgb(40, 135, 94);
-font-size: 25px;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: rgb(40, 135, 94);
+    font-size: 25px;
 }
 
-.accordion{
-display: flex;
-width: 90%;
-
+.accordion {
+    display: flex;
+    width: 90%;
 }
+
 .Questions {
-cursor: pointer;
-text-align: left;
-font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
-color: #d1ffc0;
-font-size: 15px;
-outline: none;
-border: none;
-width: 76%;
-transition: 1s;
-margin-left: 90px;
-color: rgba(23, 140, 23, 0.607);
-background-color: white;
-font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+    font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+    color: #d1ffc0;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    width: 76%;
+    transition: 1s;
+    margin-left: 90px;
+    color: rgba(23, 140, 23, 0.607);
+    background-color: white;
+    font-weight: bold;
 }
+
 .Answers {
-margin-left: 98px;
-font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
-font-size: 14px;
-color: rgb(40, 135, 94);
-border-color: #095e2753;
-margin-top: 10px;
-margin-bottom: 40px;
-width: 60%;
-word-wrap: break-word;
+    margin-left: 98px;
+    font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+    font-size: 14px;
+    color: rgb(40, 135, 94);
+    border-color: #095e2753;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 60%;
+    word-wrap: break-word;
 }
 
 .box {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-border-style: none;
-margin-left: 33%;
-width: 450px;
-height: 135px;
-justify-items: center ;
-border-width: thin;
-border-radius: 4px;
-border-color: #095e2753;
-background-color:rgba(68, 226, 157, 0.34);
-flex-wrap: wrap;
-align-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: none;
+    margin-left: 33%;
+    width: 450px;
+    height: 135px;
+    justify-items: center;
+    border-width: thin;
+    border-radius: 4px;
+    border-color: #095e2753;
+    background-color: rgba(68, 226, 157, 0.34);
+    flex-wrap: wrap;
+    align-content: space-between;
 }
+
 .head {
-margin-left: 10px;
-margin-top: 15px;
-font-size: 23px;
-font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
-color: rgb(40, 135, 94);
-width:fit-content;
-height: fit-content;
-font-weight: bold;
-
-}
-.quote{
-color: rgb(23, 145, 92);
-margin-top: 12px;
-margin-left: 10px;
-margin-bottom: 14px;
-}
-.contact{
-margin-left: 10px;
-margin-bottom: 8px;
-padding: 10px;
-border-radius: 80px;
-border: none;
-background-color: rgb(49, 191, 130);
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 23px;
+    font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+    color: rgb(40, 135, 94);
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
 }
 
-.line{
-border-bottom: 0.25px solid rgba(0, 0, 0, 0.122);
-width: 70%;
-margin-left: 97px;
-margin-top: 17px;
-margin-bottom: 17px;
-}
-.arrow_down{
-border: solid black;
-border-width: 0 1.5px 1.5px 0;
-padding: 5.5px;
-transform: rotate(45deg);
--webkit-transform: rotate(45deg);
-cursor: pointer;
+.quote {
+    color: rgb(23, 145, 92);
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 14px;
 }
 
-.arrow_up{
-border: solid black;
-border-width: 0 1.5px 1.5px 0;
-padding: 5.5px;
-transform: rotate(-135deg);
--webkit-transform: rotate(-135deg);
-
+.contact {
+    margin-left: 10px;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 80px;
+    border: none;
+    background-color: rgb(49, 191, 130);
 }
-.customerservicegirl{
-width :150px;
-border-radius: 3px;
-opacity: 0.75;
 
+.line {
+    border-bottom: 0.25px solid rgba(0, 0, 0, 0.122);
+    width: 70%;
+    margin-left: 97px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.arrow_down {
+    border: solid black;
+    border-width: 0 1.5px 1.5px 0;
+    padding: 5.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.arrow_up {
+    border: solid black;
+    border-width: 0 1.5px 1.5px 0;
+    padding: 5.5px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.customerservicegirl {
+    width: 150px;
+    border-radius: 3px;
+    opacity: 0.75;
 }
 
 .hidden {
