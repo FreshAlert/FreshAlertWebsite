@@ -94,7 +94,7 @@ h3 {
 .Questions {
     cursor: pointer;
     text-align: left;
-    font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+    font-family: url(HomemadeSausage-nR2PP.ttf);
     color: #d1ffc0;
     font-size: 15px;
     outline: none;
@@ -109,7 +109,7 @@ h3 {
 
 .Answers {
     margin-left: 98px;
-    font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+    font-family: url(HomemadeSausage-nR2PP.ttf);
     font-size: 14px;
     color: rgb(40, 135, 94);
     border-color: #095e2753;
@@ -130,7 +130,7 @@ h3 {
     margin-left: 10px;
     margin-top: 15px;
     font-size: 23px;
-    font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
+    font-family: url(HomemadeSausage-nR2PP.ttf);
     color: white;
     width: fit-content;
     height: fit-content;
@@ -203,7 +203,7 @@ h3 {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-image: url("./assets/images/blurimage.jpg");
+    background-image: url("../../assets/images/blurimage.jpg");
     justify-content: center;
 }
 
