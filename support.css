@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     margin-top: 50px;
-    color: rgba(5, 90, 5, 0.553);
+    color: white;
 }
 
 form {
@@ -11,7 +11,7 @@ form {
     margin-left: 33%;
     margin-right: 33%;
     padding: 7px;
-    border-color: rgb(40, 135, 94);
+    border-color: white;
     display: flex;
     align-items: center;
 }
@@ -21,16 +21,16 @@ input {
     text-align: left;
     font: 16px system-ui;
     width: 100%;
-    color: rgba(8, 101, 33, 0.708);
+    color: white;
 }
 
 ::placeholder {
-    color: rgb(40, 135, 94);
+    color: white;
     opacity: 0.6;
 }
 
 svg {
-    fill: rgb(40, 135, 94);
+    fill: white;
 }
 
 .icon {
@@ -52,11 +52,13 @@ h2 {
 .FSA {
     display: flex;
     width: 95%;
-    margin-left: 40px;
-    margin-right: 500px;
 }
 
 .FSA1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
     width: 100%;
 }
 
@@ -67,7 +69,6 @@ h2 {
 
 .title {
     font-weight: bold;
-    color: rgba(23, 140, 23, 0.607);
     font-size: 18px;
     word-wrap: break-word;
 }
@@ -120,19 +121,9 @@ h3 {
 
 .box {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border-style: none;
-    margin-left: 33%;
-    width: 450px;
-    height: 135px;
-    justify-items: center;
-    border-width: thin;
-    border-radius: 4px;
-    border-color: #095e2753;
-    background-color: rgba(68, 226, 157, 0.34);
-    flex-wrap: wrap;
-    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
 
 .head {
@@ -140,26 +131,27 @@ h3 {
     margin-top: 15px;
     font-size: 23px;
     font-family: url(assets/fonts/homemade-sausage-font/HomemadeSausage-nR2PP.ttf);
-    color: rgb(40, 135, 94);
+    color: white;
     width: fit-content;
     height: fit-content;
     font-weight: bold;
 }
 
 .quote {
-    color: rgb(23, 145, 92);
+    color: white;
     margin-top: 12px;
     margin-left: 10px;
     margin-bottom: 14px;
 }
 
 .contact {
+    color: white;
     margin-left: 10px;
     margin-bottom: 8px;
     padding: 10px;
     border-radius: 80px;
     border: none;
-    background-color: rgb(49, 191, 130);
+    background-color: #70c72d;
 }
 
 .line {
@@ -188,9 +180,7 @@ h3 {
 }
 
 .customerservicegirl {
-    width: 150px;
-    border-radius: 3px;
-    opacity: 0.75;
+    width: 250px;
 }
 
 .hidden {
@@ -205,4 +195,59 @@ h3 {
 
 .panel.active {
     max-height: 2000px;
+}
+
+.basiccontainer {
+    height: 31vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url("./assets/images/blurimage.jpg");
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.cards h2 {
+    margin: 15px;
+    padding: 10px;
+}
+
+.sub {
+    margin: 10px;
+    padding: 10px
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.subbox {
+    border-radius: 5px;
+    display: flex;
+    background-color: hsl(161, 82%, 34%);
+    margin: 20px;
+    padding: 20px;
+}
+
+.supportbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.boximage {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
 }
