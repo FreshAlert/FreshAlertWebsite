@@ -128,7 +128,6 @@ body {
   z-index: 999;
 }
 
-/* Styles for individual emojis */
 .emoji {
   font-size: 2rem;
   opacity: 0;
