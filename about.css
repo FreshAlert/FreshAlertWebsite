@@ -44,14 +44,14 @@ p {
 
 .social-link a {
     text-decoration: none;
-    color: #333;
+    color: #70c72d;
     margin-right: 10px;
     font-size: 24px;
 }
 
 .btn {
     display: inline-block;
-    background-color: #007BFF;
+    background-color: #70c72d;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -61,7 +61,7 @@ p {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #70c72d;
 }
 
 .flex img {
@@ -84,4 +84,15 @@ p {
     .about-us > div {
         flex: auto;
     }
+}
+
+
+.row2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.maindiv {
+
 }
