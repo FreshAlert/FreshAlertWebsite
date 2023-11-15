@@ -1,0 +1,260 @@
+h1 {
+    text-align: center;
+<<<<<<< HEAD:support.css
+    color: rgba(5, 90, 5, 0.553);
+=======
+    margin-top: 50px;
+    color: white;
+>>>>>>> 57469bc1aac0aa89c55da8db0e28c20b71202c0c:pages/support/support.css
+}
+
+form {
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1.75px;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding: 7px;
+    border-color: white;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    text-align: left;
+    font: 16px system-ui;
+    width: 100%;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.6;
+}
+
+svg {
+    fill: white;
+}
+
+.icon {
+    all: unset;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    text-align: right;
+    color: #a3e8a4;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 40px;
+    color: rgb(40, 135, 94);
+    font-size: 25px;
+}
+
+.FSA {
+    display: flex;
+    width: 95%;
+}
+
+.FSA1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.article {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.description {
+    font-size: 14px;
+    color: rgb(40, 135, 94);
+    word-wrap: break-word;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-left: 40px;
+    color: rgb(40, 135, 94);
+    font-size: 25px;
+}
+
+.accordion {
+    display: flex;
+    width: 90%;
+}
+
+.Questions {
+    cursor: pointer;
+    text-align: left;
+    font-family: url(HomemadeSausage-nR2PP.ttf);
+    color: #d1ffc0;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    width: 76%;
+    transition: 1s;
+    margin-left: 90px;
+    color: rgba(23, 140, 23, 0.607);
+    background-color: white;
+    font-weight: bold;
+}
+
+.Answers {
+    margin-left: 98px;
+    font-family: url(HomemadeSausage-nR2PP.ttf);
+    font-size: 14px;
+    color: rgb(40, 135, 94);
+    border-color: #095e2753;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 60%;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.head {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 23px;
+    font-family: url(HomemadeSausage-nR2PP.ttf);
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+}
+
+.quote {
+    color: white;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+}
+
+.contact {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 80px;
+    border: none;
+    background-color: #70c72d;
+}
+
+.line {
+    border-bottom: 0.25px solid rgba(0, 0, 0, 0.122);
+    width: 70%;
+    margin-left: 97px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.arrow_down {
+    border: solid black;
+    border-width: 0 1.5px 1.5px 0;
+    padding: 5.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.arrow_up {
+    border: solid black;
+    border-width: 0 1.5px 1.5px 0;
+    padding: 5.5px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    cursor: pointer;
+}
+
+.customerservicegirl {
+    width: 250px;
+}
+
+.hidden {
+    display: none;
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.panel.active {
+    max-height: 2000px;
+}
+
+.basiccontainer {
+    height: 31vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url("../../assets/images/blurimage.jpg");
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.cards h2 {
+    margin: 15px;
+    padding: 10px;
+}
+
+.sub {
+    margin: 10px;
+    padding: 10px
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.subbox {
+    border-radius: 5px;
+    display: flex;
+    background-color: hsl(161, 82%, 34%);
+    margin: 20px;
+    padding: 20px;
+}
+
+.supportbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.boximage {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
