@@ -1,7 +1,11 @@
 h1 {
     text-align: center;
+<<<<<<< HEAD:support.css
+    color: rgba(5, 90, 5, 0.553);
+=======
     margin-top: 50px;
     color: white;
+>>>>>>> 57469bc1aac0aa89c55da8db0e28c20b71202c0c:pages/support/support.css
 }
 
 form {
@@ -117,6 +121,8 @@ h3 {
     margin-bottom: 40px;
     width: 60%;
     word-wrap: break-word;
+    margin-bottom: 5px;
+    margin-top: 8px;
 }
 
 .box {
@@ -177,6 +183,7 @@ h3 {
     padding: 5.5px;
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
+    cursor: pointer;
 }
 
 .customerservicegirl {
