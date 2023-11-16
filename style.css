@@ -13,7 +13,7 @@ body {
   align-items: center;
   position: relative;
   color: white;
-  background-image: url("../assets/images/blurimage.jpg");
+  background-image: url("assets/images/blurimage.jpg");
   background-size: cover;
 }
 
